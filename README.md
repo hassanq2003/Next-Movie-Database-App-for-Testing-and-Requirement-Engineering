@@ -54,26 +54,6 @@ This project is designed for **learning, testing, requirement engineering**, and
 
 ---
 
-## 📂 Project Structure
-
-app/
-├── page.tsx # Home page
-├── movie/[id]/ # Movie details page
-├── wishlist/ # Wishlist page
-├── watched/ # Watched page
-
-lib/
-├── tmdb.ts # TMDB API calls
-
-types/
-├── tmdb.ts # Movie & Genre types
-
-components/
-├── ui/ # Reusable UI components
-
-
----
-
 ## 🔑 Environment Variables
 
 This project uses the **TMDB API**.  
