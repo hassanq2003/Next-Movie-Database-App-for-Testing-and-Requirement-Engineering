@@ -1,6 +1,6 @@
 # 🎬 Next Movie Database App (IMDB Clone)
 
-A modern **IMDB-style movie browsing application** built with **Next.js 13 (App Router)**, **React**, and **Tailwind CSS**, powered by the **TMDB API**.  
+A modern **IMDB-style movie browsing application** built with **Next.js 13 (App Router)**, **React**, **MongoDB**,and **Tailwind CSS**, powered by the **TMDB API**.  
 This project is designed for **learning, testing, requirement engineering**, and **open-source contribution**.
 
 🔗 **Repository:**  
@@ -60,7 +60,7 @@ This project uses the **TMDB API**.
 Create a `.env.local` file in the root directory:
 
 NEXT_PUBLIC_TMDB_API_KEY=your_tmdb_api_key_here
-
+MONGODB_URI= mongodbconnectionstring
 
 
 ## 🚀 Getting Started
@@ -69,7 +69,7 @@ NEXT_PUBLIC_TMDB_API_KEY=your_tmdb_api_key_here
 git clone https://github.com/hassanq2003/Next-Movie-Database-App-for-Testing-and-Requirement-Engineering.git
 cd Next-Movie-Database-App-for-Testing-and-Requirement-Engineering
 
-# 2️⃣ Install dependencies
+2️⃣ Install dependencies
 npm install
 or
 yarn install
