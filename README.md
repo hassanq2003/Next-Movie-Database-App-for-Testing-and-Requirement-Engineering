@@ -56,3 +56,47 @@ This project is designed for **learning, testing, requirement engineering**, and
 
 ## 📂 Project Structure
 
+app/
+├── page.tsx # Home page
+├── movie/[id]/ # Movie details page
+├── wishlist/ # Wishlist page
+├── watched/ # Watched page
+
+lib/
+├── tmdb.ts # TMDB API calls
+
+types/
+├── tmdb.ts # Movie & Genre types
+
+components/
+├── ui/ # Reusable UI components
+
+
+---
+
+## 🔑 Environment Variables
+
+This project uses the **TMDB API**.  
+Create a `.env.local` file in the root directory:
+
+NEXT_PUBLIC_TMDB_API_KEY=your_tmdb_api_key_here
+
+
+
+##🚀 Getting Started
+1️⃣ Clone the repository
+git clone https://github.com/hassanq2003/Next-Movie-Database-App-for-Testing-and-Requirement-Engineering.git
+cd Next-Movie-Database-App-for-Testing-and-Requirement-Engineering
+
+##2️⃣ Install dependencies
+npm install
+# or
+yarn install
+# or
+pnpm install
+
+3️⃣ Run the development server
+npm run dev
+
+
+Open 👉 http://localhost:3000
