@@ -63,16 +63,17 @@ NEXT_PUBLIC_TMDB_API_KEY=your_tmdb_api_key_here
 
 
 
-##🚀 Getting Started
+## 🚀 Getting Started
+
 1️⃣ Clone the repository
 git clone https://github.com/hassanq2003/Next-Movie-Database-App-for-Testing-and-Requirement-Engineering.git
 cd Next-Movie-Database-App-for-Testing-and-Requirement-Engineering
 
-##2️⃣ Install dependencies
+# 2️⃣ Install dependencies
 npm install
-# or
+or
 yarn install
-# or
+or
 pnpm install
 
 3️⃣ Run the development server
